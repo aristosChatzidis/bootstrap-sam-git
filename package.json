@@ -1,0 +1,19 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "\"This is a tets directory to learn git and node\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aristosChatzidis/git-test.git"
+  },
+  "author": "Aristos Chatzidis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aristosChatzidis/git-test/issues"
+  },
+  "homepage": "https://github.com/aristosChatzidis/git-test#readme"
+}
