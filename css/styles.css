@@ -18,7 +18,7 @@
 }
 
 .footer {
-  background-color: rgb(19, 151, 151);
+  background-color: rgb(1, 131, 131);
   margin: 0px auto;
   padding: 20px 0px 20px 0px;
   color: aliceblue;
@@ -27,7 +27,7 @@
 .jumbotron {
   padding: 70px 30px 70px 30px;
   margin: 0px auto;
-  background: rgb(0, 88, 88);
+  background: rgb(1, 131, 131);
   color: floralwhite;
 }
 
@@ -37,9 +37,9 @@
   color: #0f0f0f;
 }
 
-a:link {
+/* a:link {
   color: floralwhite;
-}
+} */
 
 /* For top  */
 body {
@@ -48,5 +48,6 @@ body {
 }
 
 .navbar-dark {
-  background-color: rgb(5, 156, 156);
+  background-color: rgb(0, 88, 88);
+  font-size: 19px;
 }
