@@ -40,3 +40,13 @@
 a:link {
   color: floralwhite;
 }
+
+/* For top  */
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+}
+
+.navbar-dark {
+  background-color: rgb(5, 156, 156);
+}
