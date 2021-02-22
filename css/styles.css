@@ -38,10 +38,29 @@
   color: #0f0f0f;
 }
 
-/* a:link {
-  color: floralwhite;
-} */
+/*  */
+.footerLinks a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:visited {
+  color: floralwhite;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(251, 164, 1);
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+/*  */
 /* For top  */
 body {
   padding: 50px 0px 0px 0px;
