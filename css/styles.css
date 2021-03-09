@@ -60,6 +60,9 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
+a:link {
+  color: white;
+}
 /*  */
 /* For top  */
 body {
