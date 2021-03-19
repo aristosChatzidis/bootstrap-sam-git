@@ -13,6 +13,14 @@
   margin: 0px auto;
   padding: 20px 0px;
 }
+.footer a:link {
+  color: white;
+}
+.footer a:visited {
+  color: floralwhite;
+  background-color: transparent;
+  text-decoration: none;
+}
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
@@ -20,7 +28,7 @@
   color: floralwhite;
 }
 address {
-  font-size: 80%;
+  font-size: 90%;
   margin: 0px;
   color: #0f0f0f;
 }
