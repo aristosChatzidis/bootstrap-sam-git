@@ -4,13 +4,12 @@
 @background-pale: rgb(1, 131, 131);
 
 //Height vriables
-@carousel-item-height: 300;
+@carousel-item-height: 300px;
 
-.zero-margin(@pad-up-dn: 0px , @pad-left-right: 0px) {
+.zero-margin (@pad-up-dn: 0px, @pad-left-right: 0px) {
   margin: 0px auto;
   padding: @pad-up-dn @pad-left-right;
 }
-
 .row-header {
   .zero-margin();
 }
@@ -23,18 +22,27 @@
 
 .footer {
   background-color: @background-pale;
-  .zero-margin(20px,0px);
+  .zero-margin(20px, 0px);
+  a:link {
+    color: white;
+  }
+  a:visited {
+    color: floralwhite;
+    background-color: transparent;
+    text-decoration: none;
+  }
 }
 
 .jumbotron {
-  .zero-margin(70px, 30px);
-  background-color: @background-light;
+  .zero-margin(70px,30px);
+  background: @background-light;
+  color: floralwhite;
 }
 
 address {
-  font-size: 80%;
+  font-size: 90%;
   margin: 0px;
-  color: #0f0f0f;
+  color: white;
 }
 
 body {
@@ -53,9 +61,10 @@ body {
   padding: 10px;
 }
 
-.carusel {
+.carousel {
   background: @background-dark;
-  .carusel-item {
+
+  .carousel-item {
     height: @carousel-item-height;
     img {
       position: absolute;
@@ -66,8 +75,9 @@ body {
   }
 }
 
-#caruselButton {
+#carouselButton {
   right: 0px;
   position: absolute;
   bottom: 0px;
+  z-index: 1;
 }
